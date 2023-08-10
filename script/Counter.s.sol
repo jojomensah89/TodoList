@@ -2,11 +2,12 @@
 pragma solidity ^0.8.13;
 
 import {Script, console2} from "forge-std/Script.sol";
+import {TodoList} from "../src/TodoList.sol";
 
-contract CounterScript is Script {
-    function setUp() public {}
-
-    function run() public {
-        vm.broadcast();
+contract DeployTodoList is Script {
+TodoList todoList;
+    function run() public returns(TodoList){
+        todoList = new TodoList();
+        return todoList;
     }
 }
