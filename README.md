@@ -1,6 +1,8 @@
 ## Simple Todo App with Solidity
 ## Iterable Mapping
 
+**This Project is a Simple todo app with the solidity programming language.**
+
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
 Foundry consists of:
