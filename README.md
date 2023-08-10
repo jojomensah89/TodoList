@@ -51,6 +51,7 @@ $ anvil
 ### Deploy
 
 ```shell
+$ forge script script/DeployTodoList.s.sol:DeployTodoList --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
 ### Cast
